@@ -1,5 +1,5 @@
 // Ejercicios video 1
-funcion mostrarInformacionPersona
+Funcion mostrarInformacionPersona
 	Definir color Como Caracter
 	color = "verde"
 	Escribir color
@@ -12,7 +12,7 @@ funcion mostrarInformacionPersona
 FinFuncion
 
 Funcion preguntarEdad
-	definir edad como entero
+	Definir edad como entero
 	Escribir "Que edad tienes?
 	Leer  edad
 	escribir "La edad es: ", edad
@@ -28,10 +28,10 @@ Funcion mostrarNombres
 FinFuncion
 
 Funcion restarNumeros
-	definir numl, num2, resultado Como entero
-	Escribir "Ingresa el número
+	Definir numl, num2, resultado Como entero
+	Escribir "Ingresa el nÃºmero
 	leer numl
-	Escribir "ingresa el número
+	Escribir "ingresa el nÃºmero
 	leer num2
 	resultado = num1 - num2
 	Escribir "El resultado es: ", resultado
@@ -68,9 +68,9 @@ FinFuncion
 Funcion juegoAdivinanza
 	Definir numAleatorio Como Entero 
 	numAleatorio = Aleatorio(0, 10)
-	Escribir "El número aleatorio es: ", numAleatorio
+	Escribir "El nÃºmero aleatorio es: ", numAleatorio
 	
-	Escribir "Adivina un número de 0 a 10,"
+	Escribir "Adivina un nÃºmero de 0 a 10,"
 	Definir numUsuario Como Entero
 	
 	intentos = -3
@@ -79,7 +79,7 @@ Funcion juegoAdivinanza
 		Leer numUsuario
 		
 		si (numAleatorio = numUsuario ) Entonces
-			Escribir "Eres genial, es correcto el número, adivinaste", numAleatorio
+			Escribir "Eres genial, es correcto el nÃºmero, adivinaste", numAleatorio
 			intentos = 0
 		SiNo 
 			Escribir "Perdiste, te quedan : ", intentos, "intentos"
@@ -98,7 +98,7 @@ FinFuncion
 Funcion elegirCombo
 	Definir combo Como Entero;
 	
-	Escribir   "Qué combo desea?"
+	Escribir   "QuÃ© combo desea?"
 	Escribir   "1: Combo 1"
 	Escribir   "2: Combo 2"
 	Escribir   "3: Combo 3"
@@ -106,11 +106,11 @@ Funcion elegirCombo
 	
 	segun combo hacer 
 		1:
-			Escribir   "El valor del como es 5 dólares"
+			Escribir   "El valor del como es 5 dÃ³lares"
 		2:
-			Escribir   "El valor del como es 7 dólares"
+			Escribir   "El valor del como es 7 dÃ³lares"
 		3:
-			Escribir   "El valor del como es 10 dólares"
+			Escribir   "El valor del como es 10 dÃ³lares"
 		De Otro Modo:
 			Escribir   "No tenemos ese combo"
 	FinSegun
@@ -123,8 +123,8 @@ Funcion generarNumerosAleatorios
 	
 	Repetir
 		num = Aleatorio(0, 10)
-		Escribir "El número aleatorio es: ", num
-		Escribir "Deseas otro número?"
+		Escribir "El nÃºmero aleatorio es: ", num
+		Escribir "Deseas otro nÃºmero?"
 		Escribir "Si no deseas continuear escriba no"
 		
 		leer respuesta
