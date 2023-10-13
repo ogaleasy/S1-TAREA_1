@@ -1,4 +1,4 @@
-// Ejercicios video 1
+//Ejercicios video 1
 Funcion mostrarInformacionPersona
 	Definir color Como Caracter
 	color = "verde"
@@ -12,13 +12,13 @@ Funcion mostrarInformacionPersona
 FinFuncion
 
 Funcion preguntarEdad
-	Definir edad como entero
+	Definir edad Como Entero
 	Escribir "Que edad tienes?
 	Leer  edad
-	escribir "La edad es: ", edad
+	Escribir "La edad es: ", edad
 FinFuncion
 
-// Ejercicios video 2
+//Ejercicios video 2
 Funcion mostrarNombres
 	Definir nombre Como Caracter
 	nombre = "Ignacio"
@@ -28,18 +28,18 @@ Funcion mostrarNombres
 FinFuncion
 
 Funcion restarNumeros
-	Definir numl, num2, resultado Como entero
+	Definir numl, num2, resultado Como Entero
 	Escribir "Ingresa el número
-	leer numl
+	Leer numl
 	Escribir "ingresa el número
-	leer num2
+	Leer num2
 	resultado = num1 - num2
 	Escribir "El resultado es: ", resultado
 FinFuncion
 
-// Ejercicios videos 3
+//Ejercicios videos 3
 Funcion verificarEdad
-	Definir edad como entero
+	Definir edad Como Entero
 	edad = 18
 	Si edad >= 18 Entonces
 		Escribir "Eres mayor de edad"
@@ -48,7 +48,7 @@ Funcion verificarEdad
 	Fin Si
 FinFuncion
 
-// Ejercicios video 4
+//Ejercicios video 4
 Funcion decisionCompra
 	sed = "si"
 	dinero = "no"
@@ -64,7 +64,7 @@ Funcion decisionCompra
 	Fin Si
 FinFuncion
 
-// Ejercicios video 5
+//Ejercicios video 5
 Funcion juegoAdivinanza
 	Definir numAleatorio Como Entero 
 	numAleatorio = Aleatorio(0, 10)
@@ -78,7 +78,7 @@ Funcion juegoAdivinanza
 		Escribir "Ingresa un numero del 0 al 10"
 		Leer numUsuario
 		
-		si (numAleatorio = numUsuario ) Entonces
+		Si (numAleatorio = numUsuario ) Entonces
 			Escribir "Eres genial, es correcto el número, adivinaste", numAleatorio
 			intentos = 0
 		SiNo 
@@ -94,17 +94,17 @@ Funcion juegoAdivinanza
 	FinMientras
 FinFuncion
 
-// Ejercicos video 6
+//Ejercicios video 6
 Funcion elegirCombo
 	Definir combo Como Entero;
 	
-	Escribir   "Qué combo desea?"
-	Escribir   "1: Combo 1"
-	Escribir   "2: Combo 2"
-	Escribir   "3: Combo 3"
-	leer combo
+	Escribir "Qué combo desea?"
+	Escribir "1: Combo 1"
+	Escribir "2: Combo 2"
+	Escribir "3: Combo 3"
+	Leer combo
 	
-	segun combo hacer 
+	Segun combo Hacer 
 		1:
 			Escribir   "El valor del como es 5 dólares"
 		2:
@@ -116,10 +116,10 @@ Funcion elegirCombo
 	FinSegun
 FinFuncion
 
-// Ejercicios video 7
+//Ejercicios video 7
 Funcion generarNumerosAleatorios
-	definir num Como Entero
-	definir respuesta Como Caracter
+	Definir num Como Entero
+	Definir respuesta Como Caracter
 	
 	Repetir
 		num = Aleatorio(0, 10)
@@ -127,11 +127,11 @@ Funcion generarNumerosAleatorios
 		Escribir "Deseas otro número?"
 		Escribir "Si no deseas continuear escriba no"
 		
-		leer respuesta
-	Hasta Que respuesta  = "no"
+		Leer  respuesta
+	Hasta Que respuesta = "no"
 FinFuncion
 
-// Ejercicos video 8
+//Ejercicios video 8
 Funcion mostrarNombresPersonas
 	Definir personas Como caracter;
 	Definir index Como Entero;
@@ -142,15 +142,15 @@ Funcion mostrarNombresPersonas
     personas(1) = "Julano Zambrano";
     personas(2) = "Sultano Cabrera";
 	
-    Para index = 0 Hasta 2 Con Paso 1 hacer
+    Para index = 0 Hasta 2 Con Paso 1 Hacer
         Escribir "Index", index, " - El Valor es: ", personas(index);
     FinPara
 FinFuncion
 
-// Ejercicios video 9
+//Ejercicios video 9
 Funcion sumaNumeros(numero1, numero2)
 	Definir resultadoSuma Como Real
-	resultadoSuma = numero1 + numero2;
+	resultadoSuma = numero1 + numero2
 	Escribir "El resultado es: ", resultadoSuma
 FinFuncion
 
